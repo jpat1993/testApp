@@ -1,8 +1,8 @@
-import template from './goatListItem.html';  
-import controller from './goatListItem.controller';  
+import template   from './goatListItem.html';
+import controller from './goatListItem.controller';
 import './goatListItem.scss';
 
-const goatListItemComponent = {  
+const goatListItemComponent = {
   restrict: 'E',
   bindings: {
     goat: '<'
@@ -12,4 +12,4 @@ const goatListItemComponent = {
   controllerAs: 'vm'
 };
 
-export default goatListItemComponent; 
+export default goatListItemComponent;

@@ -1,4 +1,4 @@
-function GoatsService() {  
+function GoatsService() {
     "ngInject";
 
     // private variable to store our goats entries
@@ -35,4 +35,4 @@ function GoatsService() {
     }
 }
 
-export default GoatsService;  
+export default GoatsService;

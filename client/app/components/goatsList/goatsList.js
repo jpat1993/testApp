@@ -1,10 +1,10 @@
-import angular from 'angular';
-import uiRouter from 'angular-ui-router';
-import goatsListComponent from './goatsList.component';
-import goatsListItemComponent from './goatsListItem.component';
+import angular              from 'angular';
+import goatsListComponent   from './goatsList.component';
 
-let goatsListModule = angular.module('goatsList', [
-  uiRouter
+import GoatListItemComponent from '../goatListItem/goatListItem';
+
+const goatsListModule = angular.module('goatsList', [
+    GoatListItemComponent.name
 ])
 
 .component('goatsList', goatsListComponent);

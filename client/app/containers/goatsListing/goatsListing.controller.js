@@ -1,4 +1,4 @@
-class GoatsListingController {  
+class GoatsListingController {
   constructor(GoatsService) {
     "ngInject";
 
@@ -16,4 +16,4 @@ class GoatsListingController {
   }
 }
 
-export default GoatsListingController;  
+export default GoatsListingController;
